@@ -1,0 +1,48 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Calcula diferentes aumentos de salário a partir de percentuais predefinidos 
+ *   em uma tabela.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE cod, sal, cargo, aum, vaum, nsal NUMÉRICO
+  ESCREVA "Informe o código do cargo: "
+  LEIA cod
+  ESCREVA "Informe o salário atual: "
+  LEIA sal
+  SE cod = 1 ENTÃO INÍCIO
+    cargo <- "Estagiário"
+    aum <- 0.15
+  FIM SENÃO SE cod = 2 ENTÃO INÍCIO
+    cargo <- "Help Desk"
+    aum <- 0.35
+  FIM SENÃO SE cod = 3 ENTÃO INÍCIO
+    cargo <- "Programador"
+    aum <- 0.20
+  FIM SENÃO SE cod = 4 ENTÃO INÍCIO
+    cargo <- "Analista programador"
+    aum <- 0.10
+  FIM SENÃO INÍCIO
+  	cargo <- "Gerente de projetos"
+    aum <- 0.0
+  FIM
+  vaum <- sal * aum
+  nsal <- sal + vaum
+  ESCREVA "Nome do cargo: " + cargo
+  ESCREVA "Valor do aumento: " + vaum
+  ESCREVA "Novo salário: " + nsal
+FIM_ALGORITMO

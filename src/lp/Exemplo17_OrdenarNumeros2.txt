@@ -1,0 +1,57 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Ordena valores reais de acordo com o padrão informado pelo usuário.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE i, a, b, c, ma, md, me NUMÉRICO
+  LEIA i
+  LEIA a
+  LEIA b
+  LEIA c
+  SE a > b E a > c ENTÃO INÍCIO
+    ma <- a
+    SE b > C ENTÃO INÍCIO
+      md <- b
+      me <- c
+    FIM SENÃO
+      md <- c
+      me <- b
+    FIM
+  FIM SENÃO b > a E b > c ENTÃO INÍCIO
+    ma <- b
+    SE a > c ENTÃO INÍCIO
+      md <- a
+      me <- c
+    FIM SENÃO INÍCIO
+      md <- c
+      me <- a
+    FIM
+  FIM SENÃO INÍCIO
+    ma <- c
+    SE a > b ENTÃO INÍCIO
+      md <- a
+      me <- b
+    FIM SENÃO INÍCIO
+      md <- b
+      me <- a
+    FIM
+  FIM
+  SE i = 1 ENTÃO ESCREVA me + ", " + md + ", " + ma
+  SENÃO SE i = 2 ENTÃO ESCREVA ma + ", " + md + ", " + me
+  SENÃO ESCREVA md + ", " + ma + ", " + me
+FIM_ALGORITMO

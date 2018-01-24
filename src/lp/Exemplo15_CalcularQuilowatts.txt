@@ -1,0 +1,33 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Calcula o valor de eletricidade à pagar a partir do salário mínimo e da 
+ *   quantidade de quilowatts consumida.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE salm, qqwatts, cqwatts, tpagar, tdesconto NUMÉRICO
+  ESCREVA "Informe o valor do salário mínimo: "
+  LEIA salm
+  ESCREVA "Informe a quantidade de quilowatts consumida: "
+  LEIA qqwatts
+  cqwatts <- salm / 5
+  tpagar <- cqwatts * qqwatts
+  tdesconto <- tpagar * 0,85
+  ESCREVA "O valor por quilowatts: " + cqwatts
+  ESCREVA "Total a pagar pela quantidade consumida: " + tpagar
+  ESCREVA "Total a pagar com 15% de desconto: " + tdesconto
+FIM_ALGORITMO

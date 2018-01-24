@@ -1,0 +1,44 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Iterando um vetor de um novo tipo de dado.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+ 
+  // DECLARANDO E DEFININDO UM VETOR DE REGISTROS
+  DECLARE carro[5] REGISTRO(modelo LITERAL, valor NUMÉRICO)
+ 
+  DECLARE i, menor, maior NUMÉRICO
+  menor <- 0
+  maior <- 0
+  PARA i <- 0 ATÉ 4 FAÇA INÍCIO
+
+    // DEFININDO VALORES DOS CAMPOS DE UM REGISTRO
+    LEIA carro[i].modelo
+    LEIA carro[i].valor
+
+    // TRABALHANDO COM OS VALORES DOS CAMPOS DE UM REGISTRO
+    SE i = 0 OU carro[i].valor < carro[menor].valor ENTÃO
+      menor <- i
+    SE i = 0 OU carro[i].valor > carro[maior].valor ENTÃO
+      maior <- i
+  FIM
+
+  // APRESENTANDO OS VALORES DOS CAMPOS DOS REGISTROS
+  ESCREVA "Modelo mais caro: ", carro[maior].modelo
+  ESCREVA "Modelo mais barato: ", carro[menor].modelo
+FIM_ALGORITMO

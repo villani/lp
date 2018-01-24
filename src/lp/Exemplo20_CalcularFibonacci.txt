@@ -1,0 +1,35 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Calcula e exibe os N primeiros números da sequência de Fibonacci.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE n, cont, num1, num2, res NUMÉRICO
+  ESCREVA "Informe a quantidade de elementos na sequência"
+  LEIA n
+  num1 <- 0
+  num2 <- 1
+  SE n > 0 ENTÃO ESCREVA num1
+  SE n > 1 ENTÃO ESCREVA num2
+  PARA cont <- 3 ATÉ n FAÇA INÍCIO
+    res <- num1 + num2
+    ESCREVA res
+    num1 <- num2
+    num2 <- res
+  FIM
+FIM_ALGORITMO
+  

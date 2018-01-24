@@ -1,0 +1,36 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Usa uma sub-rotina para identificar o maior e o menor valor de um vetor.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE vetor[5], menor_maior[2] NUMÉRICO
+  vetor <- {12,23,98,76,65}
+  menor_maior <- identificarMenorMaior(vetor)
+  ESCREVA "O menor valor é: ", menor_maior[0]
+  ESCREVA "O maior valor é: ", menor_maior[1]
+FIM_ALGORITMO
+
+SUB-ROTINA identificarMenorMaior(vetor[5] NUMÉRICO)
+  DECLARE menor_maior[2], i NUMÉRICO
+  menor_maior[0] <- vetor[0]
+  menor_maior[1] <- vetor[0]
+  PARA i <- 1 ATÉ 5 FAÇA INÍCIO
+    SE vetor[i] < menor_maior[0] ENTÃO menor_maior[0] <- vetor[i]
+    SE vetor[i] > menor_maior[1] ENTÃO menor_maior[1] <- vetor[i]
+  FIM
+FIM_SUB-ROTINA identificarMenorMaior

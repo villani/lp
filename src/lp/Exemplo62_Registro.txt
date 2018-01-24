@@ -1,0 +1,46 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Define um novo tipo de dados e um vetor de um novo tipo de dado.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  // DECLARANDO VETOR
+  DECLARE aluno[5] NUMÉRICO
+
+  // DECLARANDO REGISTRO
+  DECLARE carro REGISTRO(modelo LITERAL, motor, ano NUMÉRICO)
+
+  // DEFININDO VALOR DE UM ELEMENTO DO VETOR
+  aluno[0] <- 20150231
+
+  // DEFININDO VALORES DOS CAMPOS DO REGISTRO
+  carro.modelo <- "Corcel"
+  carro.motor <- 1.8
+  carro.ano <- 2015
+
+  // DECLARANDO UM VETOR DE REGISTROS
+  DECLARE alunos[5] REGISTRO(nome LITERAL, matricula NUMÉRICO)
+
+  // DEFININDO VALORES DOS CAMPOS DO REGISTRO DO SEGUNDO ELEMENTO DO VETOR
+  alunos[1].nome <- "Leonardo"
+  alunos[1].matricula <- 20150231
+
+  // MOSTRANDO VALORES DOS CAMPOS DO REGISTRO EM UM VETOR
+  ESCREVA "Nome: ", alunos[1].nome
+  ESCREVA "Matrícula: ", alunos[1].matricula
+  
+FIM_ALGORITMO

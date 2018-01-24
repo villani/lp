@@ -7,7 +7,9 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Este exemplo utiliza um arquivo para gerenciar os dados de uma aplicação.
+ * Este exemplo utiliza um arquivo para gerenciar os dados de uma aplicação
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo61_GerenciadorDeImoveis.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */
@@ -91,7 +93,7 @@ public class Exemplo61_GerenciadorDeImoveis {
 
     /**
      * Lê e exibe os imóveis gravados no arquivo.
-     * 
+     *
      * @throws FileNotFoundException Se o arquivo não puder ser acessado.
      */
     public static void listarImoveis() throws FileNotFoundException {
@@ -129,7 +131,7 @@ public class Exemplo61_GerenciadorDeImoveis {
 
     /**
      * Remove do arquivo os dados do imóvel selecionado.
-     * 
+     *
      * @throws FileNotFoundException Se o arquivo não puder ser acessado.
      * @throws IOException Se o arquivo não puder ser acessado.
      */

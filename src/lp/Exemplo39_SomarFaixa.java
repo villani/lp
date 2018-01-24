@@ -5,7 +5,9 @@ import java.util.Scanner;
 /**
  * Este exemplo contém a implementação de uma classe que possui dois métodos,
  * sendo um deles o método principal (main), usado para obter as entradas do
- * usuário e executar o segundo método.
+ * usuário e executar o segundo método
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo39_SomarFaixa.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

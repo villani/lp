@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 /**
  * Este exemplo contém uma possível implementação de programa que exibe a
- * posição e o valor do elemento MINIMAX de uma matriz.
+ * posição e o valor do elemento MINIMAX de uma matriz
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo28_CalcularMinimax.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

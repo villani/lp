@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 /**
  * Este exemplo utiliza um novo tipo de dado para gerenciar as informações de
- * uma aplicação.
+ * uma aplicação
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo69_GerenciarConta.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

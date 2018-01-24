@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 /**
  * Este exemplo contém a declaração de um método que não utiliza parâmetros de
- * entrada e também não retorna qualquer valor após a sua execuação.
+ * entrada e também não retorna qualquer valor após a sua execuação
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo30_DeclarandoMetodos.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

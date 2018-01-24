@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 /**
  * Este exemplo contém na mesma classe outro método além do método principal
- * (main).
+ * (main)
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo37_IdentificarNegativo.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

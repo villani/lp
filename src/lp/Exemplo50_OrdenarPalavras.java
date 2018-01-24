@@ -6,7 +6,9 @@ import javax.swing.JOptionPane;
 
 /**
  * Este exemplo faz uso de métodos predefinidos para alterar informações da
- * cadeia de caracteres.
+ * cadeia de caracteres
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo50_OrdenarPalavras.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

@@ -5,7 +5,9 @@ import javax.swing.JOptionPane;
 
 /**
  * Este exemplo utiliza recursos gráficos, como caixas de diálogos, para entrada
- * e saída de dados.
+ * e saída de dados
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo29_InterfaceGrafica.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

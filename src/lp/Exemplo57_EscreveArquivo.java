@@ -6,7 +6,9 @@ import java.io.IOException;
 
 /**
  * Este exemplo contém a implementação de uma rotina que insere e altera as
- * informações de um arquivo.
+ * informações de um arquivo
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo57_EscreveArquivo.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

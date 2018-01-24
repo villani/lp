@@ -3,7 +3,9 @@ package lp;
 import javax.swing.JOptionPane;
 
 /**
- * Este exemplo usa um novo tipo de dado implementado em outro arquivo.
+ * Este exemplo usa um novo tipo de dado implementado em outro arquivo
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo64_UsaCarro.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

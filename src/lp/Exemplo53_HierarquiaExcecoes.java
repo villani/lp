@@ -7,7 +7,9 @@ import javax.swing.JOptionPane;
 
 /**
  * Este exemplo contém a implementação de tratamentos de diferentes tipos de
- * exceções que podem ocorrer durante a execução de um programa.
+ * exceções que podem ocorrer durante a execução de um programa
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo53_HierarquiaExcecoes.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

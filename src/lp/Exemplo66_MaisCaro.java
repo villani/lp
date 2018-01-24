@@ -3,7 +3,9 @@ package lp;
 import java.util.Scanner;
 
 /**
- * Este exemplo contém usa um novo tipo de dado implementado em outro arquivo.
+ * Este exemplo contém usa um novo tipo de dado implementado em outro arquivo
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo66_MaisCaro.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

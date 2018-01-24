@@ -3,7 +3,9 @@ package lp;
 import javax.swing.JOptionPane;
 
 /**
- * Este exemplo utiliza métodos declarados em outras classes do mesmo pacote.
+ * Este exemplo utiliza métodos declarados em outras classes do mesmo pacote
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo34_UsandoMetodos.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

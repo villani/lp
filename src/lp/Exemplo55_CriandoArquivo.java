@@ -3,7 +3,9 @@ package lp;
 import java.io.File;
 
 /**
- * Este exemplo cria ou verifica se já foi criado determinado arquivo ou pasta.
+ * Este exemplo cria ou verifica se já foi criado determinado arquivo ou pasta
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo55_CriandoArquivo.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */
@@ -11,7 +13,7 @@ public class Exemplo55_CriandoArquivo {
 
     /**
      * Cria ou verifica se já foi criado determinado arquivo ou pasta.
-     * 
+     *
      * @param args Nâo utiliza argumentos externos.
      * @throws Exception Se não for possível criar um determinado arquivo ou
      * pasta.

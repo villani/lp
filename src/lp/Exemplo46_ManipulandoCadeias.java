@@ -2,7 +2,9 @@ package lp;
 
 /**
  * Este exemplo contém contém diversas manipulações que podem ser realizadas em
- * cadeias de caracteres.
+ * cadeias de caracteres
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo46_ManipulandoCadeias.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

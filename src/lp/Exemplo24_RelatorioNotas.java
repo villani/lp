@@ -5,7 +5,9 @@ import java.util.Scanner;
 /**
  * Este exemplo contém uma possível implementação de programa que identifica a
  * avaliação que o aluno teve maior dificuldade e também qual das avaliações foi
- * a mais difícil.
+ * a mais difícil
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo24_RelatorioNotas.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

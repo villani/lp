@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 /**
  * Este exemplo contém a implementação de um segundo método dentro da mesma
- * classe, usado para converter segundos em horas, minutos e segundos.
+ * classe, usado para converter segundos em horas, minutos e segundos
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo41_ConverterSegundos.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */
@@ -26,7 +28,7 @@ public class Exemplo41_ConverterSegundos {
 
     /**
      * Converte segundos em horas, minutos e segundos.
-     * 
+     *
      * @param seg Tempo em segundos.
      * @return O tempo convertido em horas, minutos e segundos.
      */

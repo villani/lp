@@ -6,7 +6,9 @@ import javax.swing.JOptionPane;
 
 /**
  * Este exemplo contém a implementação de diversas rotinas que manipulam cadeias
- * de caracteres.
+ * de caracteres
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo51_ManipulandoCadeias2.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

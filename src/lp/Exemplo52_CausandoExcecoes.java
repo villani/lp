@@ -6,7 +6,9 @@ import javax.swing.JOptionPane;
 
 /**
  * Este exemplo contém a implementação de códigos que possivelmente lançaram
- * exceções.
+ * exceções
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo52_CausandoExcecoes.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

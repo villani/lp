@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 /**
  * Este exemplo contém uma possível implementação de programa que exibe somente
- * os produtos e as respectivas lojas que atendem ao filtro informado.
+ * os produtos e as respectivas lojas que atendem ao filtro informado
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo26_RelatorioProdutos.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

@@ -7,7 +7,9 @@ import java.io.IOException;
 
 /**
  * Este exemplo contém a implementação de uma rotina que realiza a leitura do
- * conteúdo de um arquivo.
+ * conteúdo de um arquivo
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo58_LeArquivo.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

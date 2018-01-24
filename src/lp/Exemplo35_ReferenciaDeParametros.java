@@ -2,7 +2,9 @@ package lp;
 
 /**
  * Este exemplo contém métodos que recebem, como parâmetros de entradas, valores
- * ou referências de variáveis.
+ * ou referências de variáveis
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo35_ReferenciaDeParametros.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */

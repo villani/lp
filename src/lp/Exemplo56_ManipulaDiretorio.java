@@ -3,7 +3,9 @@ package lp;
 import java.io.File;
 
 /**
- * Este exemplo obtém informações de determinadas pastas.
+ * Este exemplo obtém informações de determinadas pastas
+ * (<a href="https://github.com/villani/lp/blob/master/src/lp/Exemplo56_ManipulaDiretorio.java" target="_blank">Ver
+ * código</a>).
  *
  * @author Prof. Me. Leonardo Villani
  */
@@ -11,7 +13,7 @@ public class Exemplo56_ManipulaDiretorio {
 
     /**
      * Obtém informações de pastas e de respectivos sub-pastas ou arquivos.
-     * 
+     *
      * @param args Não utiliza argumentos externos.
      * @throws Exception Se um arquivo ou pasta não puder ser criado ou não
      * houver permissão para acessá-los.

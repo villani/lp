@@ -1,0 +1,39 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Usa uma sub-rotina para calcular o tipo de média solicitado pelo usuário.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE nota1, nota2, nota3, m NUMÉRICO
+  DECLARE letra LITERAL
+  LEIA nota1
+  LEIA nota2
+  LEIA nota3
+  FAÇA
+    LEIA letra
+  ENQUANTO letra != "A" OU letra != "P"
+  m <- calcularMedia(nota1, nota2, nota3, letra)
+  SE letra = "A" ENTÃO ESCREVA "A média aritmética é: ", m
+  SENÃO ESCREVA "A média ponderada é: ", m
+FIM_ALGORITMO
+
+SUB-ROTINA calcularMedia(nota1, nota2, nota3 NUMÉRICO, letra LITERAL)
+  DECLARE media NUMÉRICO
+  SE letra = "A" ENTÃO media <- (nota1 + nota2 + nota3) / 3
+  SENÃO media <- (nota1*5 + nota2*3 + nota3*2) / (5 + 2 + 3)
+  RETORNE media
+FIM_SUB-ROTINA calcularMedia

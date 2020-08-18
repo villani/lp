@@ -1,0 +1,38 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Usa uma sub-rotina para ordenar os valores de um vetor.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE vetor[5], i NUMÉRICO
+  vetor <- {12.5, 23.3, 98.1, 76.5, 65.8}
+  ordenarVetor(vetor)
+  PARA i <- 0 ATÉ 5 FAÇA ESCREVA vetor[i], " - "
+FIM_ALGORITMO
+
+SUB-ROTINA ordenarVetor(vetor[5] NUMÉRICO)
+  DECLARE i, j NUMÉRICO
+  PARA i <- 4 ATÉ 0 PASSO -1 FAÇA INÍCIO
+    PARA j <- 0 ATÉ i - 1 FAÇA INÍCIO
+      SE vetor[j] > vetor[j + 1] ENTÃO INÍCIO
+        aux <- vetor[j]
+        vetor[j] <- vetor[j + 1]
+        vetor[j + 1] <- aux
+      FIM
+    FIM
+  FIM
+FIM_SUB-ROTINA ordenarVetor

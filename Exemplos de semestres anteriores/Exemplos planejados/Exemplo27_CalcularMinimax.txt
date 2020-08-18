@@ -1,0 +1,46 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Exibe a posição e o valor do elemento MINIMAX de uma matriz.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE mat[4, 5], menor, maior, i, j, l_menor, col  NUMÉRICO
+  PARA i <- 0 ATÉ 3 FAÇA INÍCIO
+    PARA j <- 0 ATÉ 4 FAÇA INÍCIO
+      LEIA mat[i, j]
+    FIM
+  FIM
+  menor <- mat[0, 0]
+  l_menor <- 0
+  PARA i <- 0 ATÉ 3 FAÇA INÍCIO
+    PARA j <- 0 ATÉ 4 FAÇA INÍCIO
+      SE mat[i, j] < menor ENTÃO INÍCIO
+        menor <- mat[i, j]
+        l_menor <- i
+      FIM
+    FIM
+  FIM
+  maior <- mat[l_menor, 0]
+  col <- 0
+  PARA j <- 1 ATÉ 4 FAÇA INÍCIO
+    SE mat[l_menor, j] > maior ENTÃO INÍCIO
+      maior <- mat[l_menor, j]
+      col <- j
+    FIM
+  FIM
+  ESCREVA maior, l_menor, col
+FIM_ALGORITMO

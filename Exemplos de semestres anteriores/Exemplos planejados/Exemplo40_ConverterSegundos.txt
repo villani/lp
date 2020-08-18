@@ -1,0 +1,33 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Usa uma sub-rotina para converter segundos em horas, minutos e segundos.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARE segundos NUMÉRICO
+  LEIA segundos
+  ESCREVA converteTempo(segundos)
+FIM_ALGORITMO
+
+SUB-ROTINA converteTempo(segundos NUMÉRICO)
+ DECLARE horas, minutos, resto NUMÉRICO
+ horas <- segundos / 3600
+ resto <- segundos % 3600
+ minutos <- resto / 60
+ segundos <- resto % 60
+ RETORNE horas, "h, ", minutos, "min e ", segundos, "seg"
+FIM_SUB-ROTINA converteTempo

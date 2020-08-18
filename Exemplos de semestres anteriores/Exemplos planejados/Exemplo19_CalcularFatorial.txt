@@ -1,0 +1,31 @@
+/*
+ * Pseudocódigo, sintaxe utilizada em Ascencio (2012).
+ * 
+ * Descrição:
+ * 
+ *   Calcula o fatorial de N números informados pelo usuário.
+ *
+ * Referência:
+ *
+ *   ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi De. 
+ *   Fundamentos da Programação de Computadores: Algoritmos, Pascal, C/c++ 
+ *   (Padrão Ansi) e Java. 3. ed. São Paulo: Pearson, 2012.
+ * 
+ * Autor:
+ *
+ *   Prof. Me. Leonardo Villani
+ *
+ */
+
+ALGORITMO
+  DECLARA n, num, i, j, fat NUMÉRICO
+  LEIA n
+  PARA i <- 1 ATÉ n FAÇA INÍCIO
+    LEIA num
+    fat <- 1
+    PARA j <- 1 ATÉ num FAÇA INÍCIO
+      fat <- fat * j
+    FIM
+    ESCREVA fat
+  FIM
+FIM_ALGORITMO      

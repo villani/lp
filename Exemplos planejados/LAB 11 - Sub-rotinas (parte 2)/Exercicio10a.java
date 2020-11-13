@@ -2,8 +2,21 @@ class Exercicio10a {
     public static void main(String[] args) {
         
         // ATIVANDO O MÉTODO DEFINIDO
-        double acrescimo = identificarAcrescimo(0.8, 1);
+        int horas = toHour(7200);
+        System.out.println("Hora: " + horas);
+        double acrescimo = identificarAcrescimo(0.8, 1.0);
         System.out.println("Resultado: " + acrescimo + "%");
+    }
+
+    /**
+     * Convert to hour the informed param.
+     * @param seconds The second to be converter.
+     * @return The seconds converted to hour.
+     */
+    public static int toHour(int seconds) {
+        int hour = 0;
+        hour = seconds / 3600;
+        return hour;
     }
 
     // DEFININDO O MÉTODO
